@@ -1,0 +1,9 @@
+Todo:
+Variable file names (if possible)
+
+Variable file name may require a rewrite on how the file IO system works. So far, the file IO works fine but only accepts files of a very specific name. Attempts have been made to fix this but it appears so far to be fruitless. Current options so far to pull differently name files are have the input box be the button that you use to load/save the file, or find a way for Windows explorer to pop up and pull the file that way.
+
+Refactor code
+
+Stuff happens inside of the draw loop. Actually a lot of the logic code runs in the draw loop. Make it to where this logic ends up not in a draw loop.
+A lot of this tends to be buttons that trigger certain functions. EG saving/loading, user input
